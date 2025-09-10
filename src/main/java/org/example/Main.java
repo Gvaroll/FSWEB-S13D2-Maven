@@ -3,16 +3,7 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        System.out.println(isPalindrome(-1221));  // true
-        System.out.println(isPalindrome(707));   // true
-        System.out.println(isPalindrome(11212));   // "One Two Three"
-        System.out.println(isPerfectNumber(6));   // true
-        System.out.println(isPerfectNumber(28));   // true 
-        System.out.println(isPerfectNumber(5));   // false
-        System.out.println(isPerfectNumber(-1));   // false
-        System.out.println(numberToWords(123));   // "One Two Three"
-        System.out.println(numberToWords(1010));   // "One Zero One Zero"
-        System.out.println(numberToWords(-12));   // "Invalid Value"
+
     }
     public static boolean isPalindrome(int number) {
         number = Math.abs(number);
